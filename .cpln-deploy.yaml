@@ -6,6 +6,7 @@ cpln:
 roles:
   - name: cpln-test-pnp
     type: web
+    workload: cpln-test-pnp
     port: 3000
     healthPath: /healthz
     public: true
